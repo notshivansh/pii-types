@@ -7,6 +7,7 @@
         {"name":"token","regexPattern":".*token.*", "sensitive":true, "onKey": true},
         {"name":"secret","regexPattern":".*secret.*", "sensitive":true, "onKey": true},
         {"name":"auth","regexPattern":".*auth.*", "sensitive":true, "onKey": true},
+        {"name":"NAME","regexPattern":".*name.*", "sensitive":true, "onKey": true},
         {"name":"database","regexPattern":".*database.*", "sensitive":true, "onKey": true}
     ]
 }
