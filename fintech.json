@@ -1,6 +1,6 @@
 {
     "types": [
-        {"name": "PAN CARD", "regexPattern" : "[A-Z]{5}[0-9]{4}[A-Z]{1}", "sensitive":false, "onKey": false, "active" : false},
+        {"name": "PAN CARD", "regexPattern" : "[A-Z]{5}[0-9]{4}[A-Z]{123}", "sensitive":false, "onKey": false, "active" : false},
         {"name": "US Medicare Health Insurance Claim Number", "regexPattern" : "[0-9]{9}[A-Za-z]{1}[0-9a-zA-Z]?", "sensitive":false, "onKey": false, "active" : false},
         {"name": "Indian Unique Health Identification", "regexPattern" : "[0-9]{14}", "sensitive":false, "onKey": false, "active" : false},
         {"name": "United Kingdom National Insurance Number", "regexPattern" : "(?!BG)(?!GB)(?!NK)(?!KN)(?!NT)(?!TN)(?!ZZ)(?! ?.O)[A-CE-EG-HJ-PR-TW-Za-ce-eg-hj-pr-tw-z]{2}[0-9]{6}[A-Da-d]{1}", "sensitive":false, "onKey": false, "active" : false},
