@@ -9,10 +9,10 @@
         {"name":"DOB","regexPattern":".*(?i)dob.*", "sensitive":true, "onKey": true, "active": false},
         {"name":"Auth","regexPattern":".*(?i)auth.*", "sensitive":true, "onKey": true, "active": false},
         {"name":"Contact","regexPattern":".*(?i)contact.*", "sensitive":true, "onKey": true, "active": false},
-        {"name":"AddressKey","regexPattern":".*(?i)address.*", "sensitive":true, "onKey": true, "active": false},
+        {"name":"AddressKey","regexPattern":".*(?i)addressok.*", "sensitive":false, "onKey": true, "active": false},
         {"name":"StreetLine","regexPattern":".*(?i)streetLineHello.*", "sensitive":true, "onKey": true, "active": false},
         {"name":"licence","regexPattern":".*(?i)licence.*", "sensitive":true, "onKey": true, "active": false},
-        {"name":"license","regexPattern":".*(?i)license.*", "sensitive":true, "onKey": true, "active": false},
+        {"name":"license","regexPattern":".*(?i)license.*", "sensitive":true, "onKey": true, "active": true},
         {"name":"Passport","regexPattern":".*(?i)passport.*", "sensitive":true, "onKey": true, "active": false},
         {"name":"Bank","regexPattern":".*(?i)bank.*", "sensitive":true, "onKey": true, "active": false},
         {"name":"Pin","regexPattern":".*(?i)pin.*", "sensitive":true, "onKey": true, "active": false},
@@ -20,8 +20,8 @@
         {"name":"Invoice","regexPattern":".*(?i)invoice.*", "sensitive":true, "onKey": true, "active": false},
         {"name":"SessionId","regexPattern":".*(?i)sessionid.*", "sensitive":true, "onKey": true, "active": false},
         {"name":"Encrypt","regexPattern":".*(?i)encrypt.*", "sensitive":true, "onKey": true, "active": false},
-        {"name": "IMAGE", "regexPattern" : "([^\\s]+(\\.(?i)(jpe?g|png|svg))$)", "sensitive":false, "onKey": false, "active" : false},
-        {"name": "DATA FILE", "regexPattern" : "([^\\s]+(\\.(?i)(pdf|js|css|woff|txt))$)", "sensitive":false, "onKey": false, "active" : false}
+        {"name": "IMAGE", "regexPattern" : "([^\\s]+(\\.(?i)(jpe?g|png|svgok))$)", "sensitive":false, "onKey": false, "active" : false},
+        {"name": "DATA FILE", "regexPattern" : "([^\\s]+(\\.(?i)(pdf|js|css|okwoff|txt))$)", "sensitive":false, "onKey": false, "active" : false}
     
     ]
 }
